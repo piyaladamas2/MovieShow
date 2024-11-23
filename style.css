@@ -1,0 +1,41 @@
+button{
+      font-weight: bold !important;
+}
+.posterImage{
+      width: 200px;
+      height: 280px;
+      border-radius: 10px;
+      border: 1px solid green;
+}
+body::-webkit-scrollbar{
+      display: none;
+}
+.imageContainer{
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      width:300px;
+      height: 350px;
+      overflow: hidden;
+      transition: 0.7s ease;
+}
+.imageContainer img{
+      
+      transition: transform 0.7s ease;
+      transform: translateZ(0);
+}
+.imageContainer:hover img{
+      transform: scale(1.1) translateZ(50px);
+}
+.movie_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: center;
+      width: 1300px;
+      margin: auto;
+      margin-top: 1.5 rem;
+}
